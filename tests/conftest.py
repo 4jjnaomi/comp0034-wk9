@@ -15,5 +15,5 @@ def pytest_setup_options():
         options.add_argument("--no-sandbox")
         options.add_argument("--headless")
     else:
-        options.add_argument("start-maximized")
+        options.add_argument("--start-maximized")
     return options
