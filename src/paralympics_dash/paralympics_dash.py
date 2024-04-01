@@ -33,7 +33,7 @@ def update_line_chart(chart_type):
     Output(component_id='bar', component_property='figure'),
     Input(component_id='checklist-input', component_property='value')
 )
-def update_line_chart(event_type):
+def update_bar_chart(event_type):
     figure = bar_gender_faceted(event_type)
     return figure
 
